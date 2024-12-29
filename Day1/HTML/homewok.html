@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        table ,tr,td,th,thead,tbody {
+            height: 30px;
+            width: 300px;
+            text-align: center;
+            border: 1px solid black;
+        } 
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#contact">Contact</a>
+        <a href="#about">About ME</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#social">Social Media</a>
+        <a href="#resume">Resume</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#location">Location & Video</a>
+    </nav>
+    <section id="contact">
+        <h2>Contact Form</h2>
+        <form>
+            <input type="text" placeholder="Enter your name"><br><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+            <textarea placeholder="Enter your message"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links -->
+    <section id="social">
+        <h2>Social Media Links</h2>
+        <a href="https://www.facebook.com/profile.php?id=100015195789146" target="_blank">Facebook</a><br>
+        <a href="https://www.instagram.com/raghav12698/" target="_blank">Instagram</a><br>
+        <a href="https://www.linkedin.com/in/raghav-gupta-161848198/" target="_blank">LinkedIn</a>
+    </section>
+
+    <!-- Skills Table -->
+    <section id="skills">
+        <h2>Skills Table</h2>
+        <table>
+            <tr>
+                <th>Skill Name</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Advanced</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Iframe for Location & Video -->
+    <section id="location">
+        <h2>Location & Video</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30774199.932548612!2d60.99509249903941!3d19.686372833039254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sus!4v1735499942822!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <iframe width="360 height="215" src="https://www.youtube.com/embed/FQdaUv95mR8" title="HTML Tutorial for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </section>
+
+    <!-- Personal Info with Video & Image -->
+    <section>
+        <h2>Personal Info</h2>
+        <p>Hello! I’m Raghav, a passionate web developer.</p>
+        <img width=215   height =300 src="profile.jpg" alt="Your Image">
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with expertise in HTML, CSS, and JavaScript...</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Portfolio Maker</h3>
+        <p>We can make a portfolio using this website.</p>
+        <h3>Tracking system</h3>
+        <p>This makes a tracking system for the user.</p>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Reading</li>
+            <li>Gaming</li>
+            <li>Binge Watching</li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="profile.pdf" class="resume-btn" target="_blank">Download Resume</a>
+    </section>
+    
+</body>
+</html>
